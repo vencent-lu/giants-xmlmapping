@@ -18,9 +18,10 @@ public class XmlDataUndefinedAttributeException extends XmlDataObjectException {
 	private String attributeName;
 
 	/**
+	 *
 	 * @param mapEntity
 	 * @param attributeName
-	 * @param objectXml
+	 * @param object
 	 */
 	public XmlDataUndefinedAttributeException(XmlMapEntity mapEntity,
 			String attributeName, Object object) {

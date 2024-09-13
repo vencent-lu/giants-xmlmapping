@@ -20,7 +20,7 @@ public class XmlDataUndefinedElementException extends XmlDataObjectException {
 	/**
 	 * @param mapEntity
 	 * @param elementName
-	 * @param objectXml
+	 * @param object
 	 */
 	public XmlDataUndefinedElementException(XmlMapEntity mapEntity, String elementName,
 			Object object) {

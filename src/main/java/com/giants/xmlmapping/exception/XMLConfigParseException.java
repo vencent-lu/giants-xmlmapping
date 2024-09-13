@@ -17,8 +17,9 @@ public class XMLConfigParseException extends XMLParseException {
 	private Class<?> xmlMapConfigClass;
 
 	/**
-	 * @param xmlFilePath
-	 * @param message
+	 *
+	 * @param elementXml
+	 * @param xmlMapConfigClass
 	 * @param e
 	 */
 	public XMLConfigParseException(String elementXml,

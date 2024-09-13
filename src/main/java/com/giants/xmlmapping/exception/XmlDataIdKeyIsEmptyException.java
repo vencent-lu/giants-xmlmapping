@@ -19,9 +19,9 @@ public class XmlDataIdKeyIsEmptyException extends XmlDataObjectException {
 	private XmlMapIdKey mapIdKey;
 
 	/**
+	 *
 	 * @param mapEntity
-	 * @param objectXml
-	 * @param idKeyName
+	 * @param object
 	 */
 	public XmlDataIdKeyIsEmptyException(XmlMapEntity mapEntity, Object object) {
 		super(mapEntity, object, MessageFormat.format(

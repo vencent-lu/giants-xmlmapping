@@ -19,8 +19,9 @@ public abstract class XmlDataObjectException extends XmlDataException {
 	private Object object;
 
 	/**
+	 *
 	 * @param mapEntity
-	 * @param objectXml
+	 * @param object
 	 * @param message
 	 */
 	public XmlDataObjectException(XmlMapEntity mapEntity, Object object, String message) {

@@ -16,7 +16,9 @@ public class XMLFileParseException extends XMLParseException {
 	private Object xmlFile;
 
 	/**
-	 * @param xmlFilePath
+	 *
+	 * @param xmlFile
+	 * @param e
 	 */
 	public XMLFileParseException(Object xmlFile,Throwable e) {
 		super(MessageFormat.format("Read xml document:{0} error!",
